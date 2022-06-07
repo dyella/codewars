@@ -6,9 +6,19 @@
 //My solution
 function makeNegative(num) {
   // Code?
-  let int = 0;
-    if (num > 0){
-        int = int - num;
-    }
-    return int
+  if (num > 0){
+    return -num;
+  }else{
+    return num;  
+  }
+  
+  }
+
+  //Alt
+  function makeNegative(num) {
+  return -Math.abs(num);
+}
+
+function makeNegative(num) {
+  return num < 0 ? num : -num;
 }
