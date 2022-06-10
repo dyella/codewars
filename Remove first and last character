@@ -6,6 +6,8 @@ function removeChar(str){
 return str.slice(1,-1);
 };
 
+//Alt
+return str.substring(1, str.length-1);
 
 
 
